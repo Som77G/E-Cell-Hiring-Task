@@ -128,9 +128,56 @@ main {
     display:inline-block;
     width:100px;
 }
-
-@media screen and (max-width : 920px) {
+@media screen and (max-width: 1280px) and (min-width: 877px) {
     #block1 {
-        width : 100%;
+        width: 95%;
+        margin-bottom: 15px;
+    }
+    #block2 {
+        margin-left : -5px;
+    }
+    #block3 {
+        margin-right : 0px;
     }
 }
+@media screen and (min-width: 601px) and (max-width: 876px) {
+    #block1 {
+        width : 95%;
+        display : block;
+        margin-bottom : 15px;
+    }
+}
+@media screen and (max-width : 600px) {
+    #block1{
+        width : 300px;
+        height : 300px;
+        margin-bottom : 15px;
+        display : grid;
+    }
+    #block2 {
+        width : 300px;
+        height : 300px;
+        margin-bottom : 15px;
+        display : grid;
+    }
+    #image1 {
+        width : 280px;
+        height : 300px;
+    }
+    #block3 {
+        width : 300px;
+        height : 300px;
+    }
+    #s1, #s2,#s3, #s4,#s5, #s6,#s7, #s8, #s9 {
+        height : 75px;
+        width : 75px;
+    }
+    #s1 {
+        margin-top : 33.75px;
+        margin-left : 33.75px;
+    }
+    #s4,#s7 {
+        margin-left : 33.75px;
+    }
+}
+
