@@ -129,7 +129,8 @@ main {
     width:100px;
 }
 
-
-
-
-
+@media screen and (max-width : 920px) {
+    #block1 {
+        width : 100%;
+    }
+}
